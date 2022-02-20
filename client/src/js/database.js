@@ -30,8 +30,8 @@ export const getDb = async () => {
   const request = store.get(1);
   const result = await request;
   result
-    ? console.log(':rocket: - data retrieved from the database', result.value)
-    : console.log(':rocket: - data not found in the database');
+    ? console.log('🚀 - data retrieved from the database', result.value)
+    : console.log('🚀 - data not found in the database');
   
     // Check if a variable is defined and if it is, return it
   return result?.value;
